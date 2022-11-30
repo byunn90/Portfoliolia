@@ -1,31 +1,44 @@
 * {
   font-family: "Barlow Condensed", sans-serif;
 }
+body {
+  background-color: #c9eff9;
+}
 header {
   padding-left: 20px;
 }
 h2 {
   padding-left: 20px;
+  font-size: 30px;
+}
+h3 {
+  padding-left: 20px;
+  font-size: 30px;
 }
 ul {
   padding-right: 20px;
-}
-
-body {
-  margin: 0px;
+  text-decoration: underline;
 }
 
 header {
   flex-direction: column-reverse;
   font-size: 60px;
+  font-size: bold;
+}
+
+.banner {
+  height: 200px;
+  width: 100%;
+  background-image: url("https://thumbs.dreamstime.com/z/abstract-technology-concept-industrial-web-header-banner-vector-template-bridge-landscape-circuit-board-gears-79083330.jpg");
+  background-color: #f0eabe;
 }
 
 .nav-information {
   display: flex;
   align-items: center;
   position: relative;
-  margin-bottom: 10px;
-  background-color: #65647c;
+  margin-bottom: 0px;
+  background-color: #f7f7f7;
   justify-content: space-between;
   width: 100%;
   height: 138px;
@@ -43,8 +56,38 @@ li {
   margin-left: 38px;
 }
 
+.about-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+.about-info h2 {
+  margin-right: 20px;
+}
+
+.about-info p {
+  display: flex;
+  font-size: 30px;
+  justify-content: flex-end;
+  height: 100px;
+}
+
+.work-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.work-info h3 {
+  margin-right: 20px;
+}
+
+.work-info p {
+  display: flex;
+  height: 100px;
+  justify-content: flex-end;
+}
+
 footer {
-  background-color: #65647c;
+  background-color: #f7f7f7;
   margin-bottom: 1%;
 }
 footer h2 {
