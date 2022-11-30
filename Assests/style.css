@@ -123,3 +123,14 @@ footer li {
   display: flex;
   justify-content: flex-end;
 }
+
+.About {
+  border-left: 4px solid #ccc;
+  position: relative;
+  left: 100px;
+
+  display: block;
+  height: 200px;
+  margin: 0 auto;
+  width: 1px;
+}
