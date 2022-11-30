@@ -58,22 +58,29 @@ li {
 
 .about-info {
   display: flex;
+  position: relative;
   justify-content: space-evenly;
 }
 .about-info h2 {
-  margin-right: 20px;
+  font-size: 40px;
+  margin-right: 40px;
 }
 
 .about-info p {
   display: flex;
   font-size: 30px;
-  justify-content: flex-end;
-  height: 100px;
+  position: relative;
+  left: 287px;
 }
 
 .work-info {
   display: flex;
-  justify-content: space-evenly;
+  border-right: 4px dashed #ccc;
+  justify-content: flex-start;
+}
+.work-info h3 {
+  font-size: 40px;
+  margin-left: 40px;
 }
 
 .work-info h3 {
