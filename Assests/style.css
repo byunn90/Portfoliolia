@@ -58,13 +58,14 @@ li {
 .about-me p {
   font-size: 30px;
   font-weight: bold;
+  margin-left: 50px;
 }
 
 .info h2 {
   font-size: 40px;
   border-right: 10px black solid;
   font-weight: bold;
-  padding-right: 10px;
+  padding-right: 72px;
 }
 
 footer {
@@ -124,12 +125,14 @@ footer li {
   margin-top: 50px;
   margin-bottom: 40px;
   justify-content: center;
+  font-weight: bold;
 }
 
 .card {
   display: flex;
   font-size: 30px;
   height: 300px;
+  margin-left: 50px;
 }
 
 main {
@@ -138,16 +141,42 @@ main {
 }
 
 footer li:hover {
-  background-color: black;
+  /* background-color: black; */
+  background-color: rgb(36, 155, 171);
+  transition: background-color 0.5s;
 }
 footer h2:hover {
-  background: yellow;
+  background-color: rgb(36, 155, 171);
+  transition: background-color 0.5s;
 }
 
 .Expertise img:hover {
-  background-color: black;
+  background-color: rgb(36, 155, 171);
+  transition: background-color 0.5s;
 }
 
 .navigation-bar li:hover {
-  background-color: yellow;
+  background-color: rgb(36, 155, 171);
+  transition: background-color 0.5s;
+}
+
+.creativity {
+  display: flex;
+  font-weight: bold;
+}
+
+.creativity p {
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.creativity h2 {
+  font-size: 40px;
+  border-right: 10px black solid;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
