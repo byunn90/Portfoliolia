@@ -32,6 +32,7 @@ header {
   width: 100%;
   background-image: url("https://thumbs.dreamstime.com/z/abstract-technology-concept-industrial-web-header-banner-vector-template-bridge-landscape-circuit-board-gears-79083330.jpg");
   /* background-color: #f0eabe;  */
+  margin-left: -10px;
 }
 
 .nav-information {
@@ -42,6 +43,11 @@ header {
   background-color: #f7f7f7;
   justify-content: space-between;
   padding: 10px;
+  margin-top: -10px;
+  margin-left: -10;
+}
+.nav-information h2 {
+  font-weight: bold;
 }
 .navigation-list {
   justify-content: space-between;
@@ -102,6 +108,7 @@ li {
 }
 
 .creativity h2 {
+  margin-left: 10px;
   font-size: 40px;
   border-right: 10px black solid;
   font-weight: bold;
@@ -115,8 +122,15 @@ li {
   padding-right: 72px;
 }
 
-/* 
-
+.about-info {
+  display: flex;
+  justify-content: flex-start;
+}
+.Expertise-info {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
 
 footer {
   background-color: #f7f7f7;
@@ -131,7 +145,7 @@ footer {
   display: flex;
   clear: both;
   /* position: absolute;  */
-/* justify-content: space-between;
+  justify-content: space-between;
   width: 100%;
   height: fit-content;
   padding: 0;
@@ -151,18 +165,10 @@ footer li {
   justify-content: flex-end;
 }
 
-
 .about-me {
   display: flex;
   justify-content: center;
 }
-
-.expertise {
-  display: flex;
-  position: relative;
-  justify-content: center;
-}
-
 
 .card {
   display: flex;
@@ -177,8 +183,8 @@ main {
 }
 
 footer li:hover {
-  /* background-color: black; */
-/* background-color: rgb(36, 155, 171);
+  background-color: black;
+  background-color: rgb(36, 155, 171);
   transition: background-color 0.5s;
 }
 footer h2:hover {
@@ -186,7 +192,7 @@ footer h2:hover {
   transition: background-color 0.5s;
 }
 
-.Expertise img:hover {
+.Expertise-info img:hover {
   background-color: rgb(36, 155, 171);
   transition: background-color 0.5s;
 }
@@ -196,11 +202,9 @@ footer h2:hover {
   transition: background-color 0.5s;
 }
 
-
 html {
   scroll-behavior: smooth;
-} */
-
+}
 .spacer {
   flex: 1;
 }
@@ -236,6 +240,18 @@ html {
 
 @media only screen and (max-width: 775px) {
   .creativity {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 775px) {
+  .expertise-info {
+    flex-direction: column;
+    padding-right: 72px;
+  }
+}
+
+@media only screen and (max-width: 616px) {
+  .Expertise-info h2 {
     flex-direction: column;
   }
 }
