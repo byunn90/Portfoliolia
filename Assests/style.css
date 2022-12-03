@@ -6,7 +6,9 @@ body {
   background-color: #c9eff9;
 }
 header {
-  padding-left: 20px;
+  /* padding-left: 20px; */
+  color: black;
+  font-weight: bold;
 }
 
 h2 {
@@ -16,6 +18,11 @@ h2 {
 h3 {
   padding-left: 20px;
   font-size: 30px;
+}
+a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
 }
 ul {
   padding-right: 20px;
@@ -30,7 +37,7 @@ header {
 
 .banner {
   height: 200px;
-  width: 100%;
+  /* width: 100%;  */
   background-image: url("https://thumbs.dreamstime.com/z/abstract-technology-concept-industrial-web-header-banner-vector-template-bridge-landscape-circuit-board-gears-79083330.jpg");
   /* background-color: #f0eabe;  */
   margin-left: -10px;
@@ -148,7 +155,7 @@ footer {
   clear: both;
   /* position: absolute;  */
   justify-content: space-between;
-  width: 100%;
+  /* width: 100%;  */
   height: fit-content;
   padding: 0;
   bottom: 0;
@@ -202,6 +209,21 @@ footer h2:hover {
 .navigation-bar li:hover {
   background-color: rgb(36, 155, 171);
   transition: background-color 0.5s;
+}
+
+.card-1-info:hover {
+  opacity: 0.5;
+  transition: 0.4s;
+}
+
+.card-2-info:hover {
+  opacity: 0.5;
+  transition: 0.4s;
+}
+
+.card-3-info:hover {
+  opacity: 0.5;
+  transition: 0.4s;
 }
 
 html {
@@ -263,6 +285,43 @@ html {
     padding: 20px;
   }
   .images-container img {
-    max-width: 40px;
+    max-width: 100px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  footer {
+    min-width: max-content;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .about-info {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .work-info {
+    flex-direction: column;
+  }
+  .about-me {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  footer ul {
+    padding: 0;
+    margin: 0;
+  }
+  footer h2 {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1870px) {
+  .about-info {
+    flex-direction: column;
   }
 }
