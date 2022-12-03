@@ -79,12 +79,15 @@ footer {
   margin: auto;
   display: flex;
   clear: both;
-  position: absolute;
+  /* position: absolute;  */
   justify-content: space-between;
   width: 100%;
   height: fit-content;
   padding: 0;
   bottom: 0;
+  margin-bottom: -10;
+  margin-left: -10;
+  margin-right: -10;
 }
 
 footer ul {
@@ -132,4 +135,19 @@ footer li {
 main {
   width: 80%;
   margin: auto;
+}
+
+footer li:hover {
+  background-color: black;
+}
+footer h2:hover {
+  background: yellow;
+}
+
+.Expertise img:hover {
+  background-color: black;
+}
+
+.navigation-bar li:hover {
+  background-color: yellow;
 }
