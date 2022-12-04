@@ -11,7 +11,7 @@ CSS
 
 ## Installation
 
-git clone https://github.com/byunn90/portfolio-w2
+git clone git@github.com:byunn90/Portfoliolia.git
 
 ## Usage
 
