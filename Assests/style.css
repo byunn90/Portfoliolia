@@ -289,8 +289,11 @@ html {
     justify-content: center;
     padding: 20px;
   }
-  .images-container img {
-    max-width: 100px;
+  .images-container,
+  img,
+  li {
+    /* max-width: 100px;  */
+    margin-right: 3px;
   }
 }
 
