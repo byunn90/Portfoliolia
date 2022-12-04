@@ -331,20 +331,11 @@ html {
   }
 }
 
-a .info:hover img {
+img:hover {
   /* visibility: visible;  */
-  /* transform: rotatey(80deg);
-  transition-duration: 3s; */
-  transform: rotate(360deg);
-  transition: transform 3s;
+  transform: rotate(20deg);
+  transition-duration: 1s;
+  /* transform: rotate(360deg);  */
+  transition: transform 2s;
   transition: ease-in-out 1s;
-  /* transition: ease-out 5s;  */
 }
-/* 
-.about-info img {
-} */
-
-/* crossRotate:focus a, .corssRotate a:focus {
-  visibility: visible;
-  transform: rotatey(0deg);
-} */
