@@ -1,9 +1,8 @@
-# portfolio-w2
+# Portfoliolia
 
 ## Description
 
-objective of this work was to come up a plan and design to create a responsive website so users who own iphones, iphone SE, iphones XR, iphones 12 Pro and desktop. Making the design responsive has helped our
-website become more mobile friendly and increasing amount of time spend on our website.
+objective of this work was to come up with a responsive website so users who own iphones, iphone SE, iphones XR, iphones 12 Pro and desktop. Making the design responsive has helped our website become more mobile friendly and increasing users screen time for our website.
 
 ## Built With
 
