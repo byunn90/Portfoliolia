@@ -334,10 +334,8 @@ html {
 .card-1-info:hover,
 .card-2-info:hover,
 .card-3-info:hover {
-  /* visibility: visible;  */
   transform: rotate(20deg);
   transition-duration: 1s;
-  /* transform: rotate(360deg);  */
   transition: transform 2s;
   transition: ease-in-out 1s;
 }
