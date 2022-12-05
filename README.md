@@ -1,5 +1,7 @@
 # Portfoliolia
 
+![alt text](./Assests/image/websitePreview.png)
+
 ## Description
 
 objective of this work was to come up with a responsive website so users who own iphones, iphone SE, iphones XR, iphones 12 Pro and desktop. Making the design responsive has helped our website become more mobile friendly and increasing users screen time for our website.
