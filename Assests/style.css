@@ -4,6 +4,8 @@
 body {
   min-width: 100vw;
   background-color: #c9eff9;
+  overflow: hidden;
+  margin: 0;
 }
 header {
   /* padding-left: 20px; */
@@ -259,11 +261,17 @@ html {
   .about-me p {
     margin-top: 24px;
   }
+  body {
+    overflow: scroll;
+  }
 }
 
 @media only screen and (max-width: 1191px) {
   .work-info {
     flex-direction: column;
+  }
+  body {
+    overflow: scroll;
   }
 }
 
