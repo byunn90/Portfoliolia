@@ -4,8 +4,8 @@
 body {
   min-width: 100vw;
   background-color: #c9eff9;
-  overflow-x: hidden;
   margin: 0;
+  overflow-x: hidden;
 }
 header {
   /* padding-left: 20px; */
