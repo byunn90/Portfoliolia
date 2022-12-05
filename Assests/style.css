@@ -4,7 +4,7 @@
 body {
   min-width: 100vw;
   background-color: #c9eff9;
-  overflow: hidden;
+  overflow-x: hidden;
   margin: 0;
 }
 header {
